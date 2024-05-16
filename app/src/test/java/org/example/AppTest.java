@@ -27,4 +27,44 @@ class AppTest {
         scoreKeeper.scoreTeamA2();
         assertEquals("002:000", scoreKeeper.getScore());
     }
+
+    @Test
+    public void testScoreTeamA3() {
+        ScoreKeeper scoreKeeper = new ScoreKeeper();
+        scoreKeeper.scoreTeamA3();
+        assertEquals("003:000", scoreKeeper.getScore());
+    }
+
+    @Test
+    public void testScoreTeamB1() {
+        ScoreKeeper scoreKeeper = new ScoreKeeper();
+        scoreKeeper.scoreTeamB1();
+        assertEquals("000:001", scoreKeeper.getScore());
+    }
+
+    @Test
+    public void testScoreTeamB2() {
+        ScoreKeeper scoreKeeper = new ScoreKeeper();
+        scoreKeeper.scoreTeamB2();
+        assertEquals("000:002", scoreKeeper.getScore());
+    }
+
+    @Test
+    public void testScoreTeamB3() {
+        ScoreKeeper scoreKeeper = new ScoreKeeper();
+        scoreKeeper.scoreTeamB3();
+        assertEquals("000:003", scoreKeeper.getScore());
+    }
+
+    @Test
+    public void testCombinedScore() {
+        ScoreKeeper scoreKeeper = new ScoreKeeper();
+        scoreKeeper.scoreTeamA1();
+        scoreKeeper.scoreTeamA2();
+        scoreKeeper.scoreTeamA3();
+        scoreKeeper.scoreTeamB1();
+        scoreKeeper.scoreTeamB2();
+        scoreKeeper.scoreTeamB3();
+        assertEquals("006:006", scoreKeeper.getScore());
+    }
 }

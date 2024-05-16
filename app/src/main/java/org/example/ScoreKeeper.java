@@ -25,14 +25,14 @@ public class ScoreKeeper {
         scoreTeamB += 1;
     }
 
-    public void scoreTeamB2() {
+    /*public void scoreTeamB2() {
         scoreTeamB += 2;
     }
 
     public void scoreTeamB3() {
         scoreTeamB += 3;
     }
-    
+    */
     public String getScore() {
         return String.format("%03d:%03d", scoreTeamA, scoreTeamB);
     }
