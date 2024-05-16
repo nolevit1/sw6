@@ -5,10 +5,12 @@ public class ScoreKeeper {
     private int scoreTeamB;
 
     public ScoreKeeper() {
+        /* Refactoring */
         scoreTeamA = 0;
         scoreTeamB = 0;
     }
 
+    /*
     public void scoreTeamA1() {
         scoreTeamA += 1;
     }
@@ -31,11 +33,18 @@ public class ScoreKeeper {
 
     public void scoreTeamB3() {
         scoreTeamB += 3;
+    }*/
+    /* 
+    public void scoreTeamA(int points) {
+        scoreTeamA += points;
     }
-    
+
+    public void scoreTeamB(int points) {
+        scoreTeamB += points;
+    }*/
+
     public String getScore() {
         return String.format("%03d:%03d", scoreTeamA, scoreTeamB);
     }
-    
 }
 

@@ -7,12 +7,22 @@ public class App {
     public static void main(String[] args) {
         ScoreKeeper scoreKeeper = new ScoreKeeper();
 
+        /* 
         scoreKeeper.scoreTeamA1();
         scoreKeeper.scoreTeamA2();
         scoreKeeper.scoreTeamA3();
         scoreKeeper.scoreTeamB1();
         scoreKeeper.scoreTeamB2();
         scoreKeeper.scoreTeamB3();
+        */
+
+        /* Refactoring*/
+        scoreKeeper.scoreTeamA(1);
+        scoreKeeper.scoreTeamA(2);
+        scoreKeeper.scoreTeamA(3);
+        scoreKeeper.scoreTeamB(1);
+        scoreKeeper.scoreTeamB(2);
+        scoreKeeper.scoreTeamB(3);
 
         System.out.println(scoreKeeper.getScore());
     }
