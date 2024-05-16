@@ -27,5 +27,4 @@ class AppTest {
         scoreKeeper.scoreTeamA2();
         assertEquals("002:000", scoreKeeper.getScore());
     }
-
 }
