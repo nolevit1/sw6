@@ -34,14 +34,14 @@ public class ScoreKeeper {
     public void scoreTeamB3() {
         scoreTeamB += 3;
     }*/
-    /* 
+    
     public void scoreTeamA(int points) {
         scoreTeamA += points;
     }
 
     public void scoreTeamB(int points) {
         scoreTeamB += points;
-    }*/
+    }
 
     public String getScore() {
         return String.format("%03d:%03d", scoreTeamA, scoreTeamB);
