@@ -21,7 +21,7 @@ public class App {
         scoreKeeper.scoreTeamA(2);
         scoreKeeper.scoreTeamA(3);
         scoreKeeper.scoreTeamB(1);
-        scoreKeeper.scoreTeamB(2);
+        scoreKeeper.scoreTeamB(3);
         scoreKeeper.scoreTeamB(3);
 
         System.out.println(scoreKeeper.getScore());
