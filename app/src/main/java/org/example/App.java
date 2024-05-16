@@ -8,11 +8,11 @@ public class App {
         ScoreKeeper scoreKeeper = new ScoreKeeper();
 
         scoreKeeper.scoreTeamA1();
-        scoreKeeper.scoreTeamA2();
+        /*scoreKeeper.scoreTeamA2();
         scoreKeeper.scoreTeamA3();
         scoreKeeper.scoreTeamB1();
         scoreKeeper.scoreTeamB2();
-        scoreKeeper.scoreTeamB3();
+        scoreKeeper.scoreTeamB3();*/
 
         System.out.println(scoreKeeper.getScore());
     }
